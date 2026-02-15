@@ -342,6 +342,7 @@ for mood, poem_list in poems.items():
         st.markdown(f"*{idx}.* {poem}")
         st.markdown("---")
 
-st.write("Thank you")
+st.write("Thank you!!!🌸")
+
 
 
