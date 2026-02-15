@@ -342,23 +342,6 @@ for mood, poem_list in poems.items():
         st.markdown(f"*{idx}.* {poem}")
         st.markdown("---")
 
-# Chat Section
-st.markdown("<h2>🌸 Chat with me</h2>", unsafe_allow_html=True)
-st.write("Share your mood or feelings🌿")
-
-if "chat" not in st.session_state:
-    st.session_state.chat = []
-
-user_input = st.text_input("Enter your mood or feeling 🌿")
-
-if st.button("Send Message"):
-    if user_input:
-        st.session_state.chat.append(f"💬 User: {user_input}")
-        st.session_state.chat.append(
-            "🌸 PoetryBot: I don’t have a poem for this yet. Please ping me at @unpolishedthoughtsss so I can write a poem just for you!! 🌿"
-        )
-
-for message in st.session_state.chat:
-    st.write(message)
+st.write("Thank you")
 
 
