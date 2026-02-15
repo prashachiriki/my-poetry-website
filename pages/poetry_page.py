@@ -9,7 +9,8 @@ poems = {
 
     "🌙 Soft / Peaceful / Hopeful": [
 
-        """Spark vs Stability
+        """Spark vs Stability:
+        
 we all go around the spark—
 the spark—
 which sets our body on fire.
@@ -30,7 +31,8 @@ but—
 we hold onto them in blue and black
 to see the orange again.""",
 
-        """Moon vs Sun
+        """Moon vs Sun:
+        
 She finally found her answer — her type.
 Someone who is more of a moon,
 someone who lets her breathe.
@@ -44,7 +46,8 @@ like an unsolved puzzle,
 and still makes her feel alive
 without burning her out.""",
 
-        """Moon Phases
+        """Moon Phases:
+        
 Some days I’m a full moon — bright and warm.
 I light up the whole sky.
 People look at me and reminisce about their loved ones.
@@ -58,7 +61,8 @@ I always find my way back to the light —
 but is it really my shine…
 or just the sun’s?""",
 
-        """Dear 2025
+        """Dear 2025:
+        
 Dear 2025,
 I stepped in with a ray of hope —
 The beginning held a spark.
@@ -81,7 +85,8 @@ Hoping time will finally teach them how to heal."""
 
     "💔 Sad / Grief / Emotional Pain": [
 
-        """Father’s Void
+        """Father’s Void:
+        
 Life seems so normal.
 But when I look back,
 I still feel the void —
@@ -103,7 +108,8 @@ Did he feel regret?
 All her what-ifs
 lead to a dead end.""",
 
-        """Falling
+        """Falling:
+        
 I felt lost.
 I had no hand left to hold.
 The touch I trusted
@@ -123,7 +129,8 @@ I saw the regret in their eyes —
 and I left,
 with peace in my last beat.""",
 
-        """Too Broken
+        """Too Broken:
+        
 We neither have a future nor a past.
 All we have is an illusion —
 an illusion that feels so beautiful,
@@ -135,7 +142,8 @@ while the present slips away."""
 
     "🌑 Dark / Lonely / Unseen": [
 
-        """The Rat Race
+        """The Rat Race:
+        
 The rat race—
 I’m destined to something else, right?
 Something dreamy, like fairytales.
@@ -152,7 +160,8 @@ Maybe one day, we’ll become fireflies—
 Flying into those dreamy feels,
 Wild and free.""",
 
-        """Love in Darkness
+        """Love in Darkness:
+        
 And then I realised,
 My love only shines in darkness.
 It stays silent in the light.
@@ -160,7 +169,8 @@ Too quiet for people to notice.
 So I just linger away in the dark
 Without leaving a trace.""",
 
-        """The Art of Being Stuck
+        """The Art of Being Stuck:
+        
 Being stuck on someone —
 drained enough to know it’s all in vain.
 Yet, the ocean in you still aches to give.
@@ -173,7 +183,8 @@ not your true version."""
 
     "🌫 Nostalgic / Bittersweet / Longing": [
 
-        """Déjà Vu
+        """Déjà Vu:
+        
 Some moments feel like déjà vu. They pull us back into a time we once lived —
 a moment that held someone whose eyes carried stars,
 someone who ran to me like a child,
@@ -197,7 +208,7 @@ for mood, poem_list in poems.items():
 
 # Chat Section
 st.markdown("<h2>🌸 Chat with me</h2>", unsafe_allow_html=True)
-st.write("Share your mood or feelings and I’ll reply personally 🌿")
+st.write("Share your mood or feelings🌿")
 
 if "chat" not in st.session_state:
     st.session_state.chat = []
@@ -213,3 +224,4 @@ if st.button("Send Message"):
 
 for message in st.session_state.chat:
     st.write(message)
+
